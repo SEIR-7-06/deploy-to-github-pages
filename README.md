@@ -25,15 +25,13 @@ Typical **static assets** include:
 
 #### Ensure your project is ready to deploy
 
-Make sure that your project is working - it does not make sense to deploy a broken app!
-
-Next, make sure that all changes to your code are committed to _master_ in your local repository.
+Make sure that all changes to your code are committed to _master_ in your local repository.
 
 Although not necessary, go ahead and push the latest commit to _origin_:<br>`$ git push origin master`
 
 #### Create a `gh-pages` Branch
 
-You will learn more about git **branches** during Project 3, however, deploying on _ghpages_ requires that we create a new branch:
+You will learn more about git **branches** in the next unit, however, deploying on _ghpages_ requires that we create a new branch:
 
 - Ensure that you're in your project's directory and in the `master` branch
 - Run `$ git checkout -b gh-pages`
@@ -42,7 +40,7 @@ You will learn more about git **branches** during Project 3, however, deploying 
 
 All that's left to get the app deployed is to push the `gh-pages` branch to the `origin` remote:<br>`$ git push origin gh-pages`
 
-## Browsing to the WebSite
+## Browsing to the Website
 
 Your website should now be up and running at the following URL:<br>`https://<user-name>.github.io/<repo-name>/`
 
