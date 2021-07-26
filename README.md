@@ -25,15 +25,15 @@ Typical **static assets** include:
 
 #### Ensure your project is ready to deploy
 
-Make sure that all changes to your code are committed to _master_ in your local repository.
+Make sure that all changes to your code are committed to _main_ in your local repository.
 
-Although not necessary, go ahead and push the latest commit to _origin_:<br>`$ git push origin master`
+Although not necessary, go ahead and push the latest commit to _origin_:<br>`$ git push origin main`
 
 #### Create a `gh-pages` Branch
 
 You will learn more about git **branches** in the next unit, however, deploying on _ghpages_ requires that we create a new branch:
 
-- Ensure that you're in your project's directory and in the `master` branch
+- Ensure that you're in your project's directory and in the `main` branch
 - Run `$ git checkout -b gh-pages`
 
 #### Deploy the `gh-pages` Branch
@@ -50,17 +50,17 @@ Be sure to substitute **your GitHub user-name** for `<user-name>` and **your pro
 
 ## Updating your Application's Deployment
 
-Now that your repo has two branches, be sure to **continue development on the `master` branch**.
+Now that your repo has two branches, be sure to **continue development on the `main` branch**.
 
-`$ git checkout master` switches to the `master` branch.
+`$ git checkout main` switches to the `main` branch.
 
-When you have commits on `master` that you want to deploy, it's time to **merge** those commits into the `gh-pages` branch:
+When you have commits on `main` that you want to deploy, it's time to **merge** those commits into the `gh-pages` branch:
 
 - Checkout the `gh-pages` branch: `$ git checkout gh-pages`
-- Merge the commits from `master`: `$ git merge master`
+- Merge the commits from `main`: `$ git merge main`
 - Deploy the changes: `$ git push origin gh-pages`
 
 Now your deployed application is up to date!
 
-Be sure to switch back to the `master` branch - happy coding!
+Be sure to switch back to the `main` branch - happy coding!
 
